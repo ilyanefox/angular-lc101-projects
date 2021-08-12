@@ -1,0 +1,5 @@
+.container {
+    column-rule-width: 1px;
+    column-rule-style: dotted;
+    column-rule-color: black;
+}

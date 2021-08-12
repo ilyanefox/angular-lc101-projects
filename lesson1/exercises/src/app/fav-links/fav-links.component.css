@@ -6,3 +6,8 @@
      text-align: center;
      text-decoration: underline;
  }
+ img {
+     display: block;
+     margin-right: auto;
+     margin-left: auto;
+ }

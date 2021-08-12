@@ -1,9 +1,11 @@
 .chores {
-   font-family: "Times New Roman";
-   color: DarkSalmon;  
+   font-family: "Verdana";
+   color: goldenrod;  
+   border-style: dotted;
 }
 h3 {
     text-decoration: underline;
+    text-align: center;
 }
 ul {
     font-style: italic;

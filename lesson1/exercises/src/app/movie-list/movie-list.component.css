@@ -1,6 +1,7 @@
 .movies {
     color: DarkCyan;
-    font-size: large;
+    font-size: medium;
+    font-family: verdana;
 }
 h3 {
     text-align: center;

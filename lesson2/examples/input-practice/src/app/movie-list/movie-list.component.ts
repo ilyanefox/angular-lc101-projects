@@ -18,7 +18,7 @@ export class MovieListComponent implements OnInit {
          this.movies.push(newTitle);
       }
       if (newTitle === "") {
-         return false;
+         alert("Please enter a movie title");
       }
    }
 }

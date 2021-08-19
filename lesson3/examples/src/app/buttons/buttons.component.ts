@@ -7,10 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ButtonsComponent implements OnInit {
    buttonHeading: string = "Buttons"
-   inactive: boolean = false;
-
+   inactiveGold: boolean = false;
+   inactiveSilver: boolean = false;
+   inactiveCopper: boolean = false;
+   reactivateButton: boolean = false;
    constructor() { }
 
    ngOnInit() { }
+
+   reactivate(button: boolean) {
+      if (this.inactiveGold === true || this.inactiveSilver === true || this.inactiveCopper === true) {
+         return (this.reactivateButton ===  true);
+      }
+   }
 
 }
